@@ -1,3 +1,14 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a {
+    color: grey;
+}
 #main {
     height: 500px;
     background-color: #72adf1;
@@ -7,21 +18,45 @@
 #organizations {
 }
 
-.org {
-    padding-top: 5px;
-    text-align: center;
-    color: white;
-    border: none;
-    padding-bottom: 20%;
-    position: relative;
-    display: inline-block;
-    background-image: url("img/placeholder.png");
+.positioner {
+    margin-left:8vh;
 }
 
+
+.org {
+    color: white;
+    border: none;
+    display: inline-block;
+    background-image: url("../img/cipher-1.png");
+    background-size: cover;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+    padding-top:calc(50% - 30px);
+    line-height: 50px;
+    font-size: 2.5em;
+    
+}
+
+.dummy {
+    margin-top: 100%;
+}
 .orgname {
+    position: absolute;
+    margin-bottom: 10vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #blog {
+   
+    margin-top: 65px;
+    margin-bottom: 50px;
     border: none;
     padding-bottom: 30px;
 }
@@ -30,12 +65,13 @@
     text-align: center;
     color: black;
 }
+
 #title {
     font-size: 40px;
-    color: white;
-    background-color: black;
+    font-weight:700;
+    color: black;
     padding: 8px;
-    padding-top: 4px;
+    padding-top: 45px;
     display: inline-block;
 }
 
@@ -45,6 +81,7 @@
 }
 
 #text {
+    font-family: 'PT Serif', serif;
     font-size: 25px;
     color: white;
 }
@@ -53,7 +90,7 @@
     margin-top: 20px;
     border: none;
     border-radius: 0;
-    font-size: 30px;
+    font-size: 17px;
     color: white;
     background-color: black;
     padding-left: 30px;
@@ -73,10 +110,12 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    width: 600px;
 }
 
 #blogaction {
+    margin-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: none;
     background-color: black;
     color: white;
@@ -84,10 +123,175 @@
 }
 
 #contactus {
-    border: 1px solid black;
+    border-top: 1px solid #D9D9D9;
+    color: #808080;
+}
+
+.footer-positioner {
+    margin-left:10vh;
 }
 
 #facebook {
-    width: 50px;
+    width: 30px;
+    display:inline-block;
 }
 
+#facebooklink {
+    top: 0;
+}
+.socialmedia {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.socialmediablock {
+    margin-top: 10px;
+}
+.row a {
+    color: black ;
+}
+
+.socialmediablock {
+    display: block;
+}
+
+
+
+
+#contactus {
+    font-weight:300;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bloglink {
+    margin-bottom: 0px;
+}
+#post p {
+    line-height: 1.7;
+    font-family: 'PT Serif', serif;
+}
+
+#blog h1 {
+    font-size: 50px;
+    margin-bottom:25px;
+}
+
+#postcontent {
+    font-size: 20px;
+}
+
+.col-xs-3 {
+    padding: 0;
+}
+
+@media screen and (min-width:1400px) {
+    .positioner {
+        margin-left:18vh;
+    }
+    
+    #pencil {
+        margin-right:16vh;
+    }
+    
+}
+
+@media screen and (min-width:740px) {
+    #post {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #pencil {
+        display:none;
+    }
+    
+    #main {
+        text-align:center;
+    }
+    
+    .org {
+        font-size: 2em;
+    }
+    
+    .positioner {
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width:800px) { 
+    .org {
+        font-size: 1.5em;
+    }
+    
+    
+}
+
+@media screen and (max-width:650px) { 
+    .org {
+        font-size: 1.4em;
+    }
+    
+    
+}
+
+@media screen and (max-width:550px) { 
+    .org {
+        font-size: 1.2em;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:563px) { 
+    #question {
+        font-size: 4.9em;
+    }
+    
+}
+
+@media screen and (max-width:530px) { 
+  
+    
+}
+
+@media screen and (max-width:519px) { 
+    #question {
+        font-size: 4.2em;
+    }
+    
+}
+
+@media screen and (max-width:470px) { 
+    .org {
+        font-size: 1em;
+    }
+    
+    
+}
+
+@media screen and (max-width:480px) { 
+    .org {
+        font-size: 0.9em;
+    }
+    
+    
+}
+
+@media screen and (max-width:349px) { 
+    .org {
+        font-size: 0.8em;
+    }
+    
+    #question {
+        font-size: 3.6em;
+    }
+    
+    #text {
+        font-size: 1.5em;
+    }
+    
+}
