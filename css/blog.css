@@ -29,23 +29,30 @@ a:hover, a:visited, a:link, a:active {
     background-size:cover; 
 }
 
-.current {
-    color:#FFF;
-    width: 100%;
-}
-
-.current h2 {
-    color: white;
-    margin-left: 15px;
+#currentpage {
     float: left;
-}
-
-.current a {
+    margin-left: 20px;
     color: white;
-    margin-right: 15px;
-    float: right;
+    
 }
 
+#returnhome {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#featured {
+    text-align: center;
+}
 
 .name-heading {
     color:#fff;
@@ -60,7 +67,6 @@ a:hover, a:visited, a:link, a:active {
     color:rgba(255,255,255,0.75);
     font-size:3vh;
     font-weight:300;
-    margin-top: 80px;
 }
 
 .body-writing {
@@ -235,11 +241,11 @@ a.links-icons:visited {
 
 .button-site {
     padding: 10px 25px;
-    font-size:14px;
+    font-size:15px;
     font-family:"Lato";
     font-weight:700;
-    background-color:#FFF;
-    color:#000;
+    background-color: #FFF;
+    color: black;
     border: none;
     text-transform: uppercase;
 }
@@ -263,19 +269,19 @@ a.links-icons:visited {
     padding-left: 15px;
     padding-right: 15px;
     border: none;
-    background-color: darkgrey;
+    background-color: #404040;
     color: white;
     height: 35px;
 }
 
-#postcontent {
-    font-size: 30px;
-    color: lightblue;
+#posttitle {
+    font-size: 33px;
+    color: #5980C0;
 }
 
 #contactus {
     font-weight:300;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 

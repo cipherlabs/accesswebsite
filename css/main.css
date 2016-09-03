@@ -9,6 +9,48 @@ a:hover, a:visited, a:link, a:active {
 a {
     color: grey;
 }
+
+.navbar {
+    display: inline-flex;
+    border: none;
+    background-color: black;
+}
+
+#navcontainer {
+    margin: auto 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.navlink {
+    font-size: 1.2em;
+    margin-left: 10px;
+    color: white;
+    position: relative;
+    padding-bottom: 4px;
+
+}
+
+.navlink:after {
+    content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      border-bottom: 2px solid white;
+      transition: width .5s ease;
+      /*-moz-transition: width .5s ease, background-color .5s ease;*/
+      /*-webkit-transition: width .5s ease, background-color .5s ease;*/
+      /*-ms-transition: width .5s ease, background-color .5s ease;*/
+}
+
+.navlink:hover {
+    color: white;
+}
+.navlink:hover:after{
+     color: white;
+     width: 100%;
+}
 #main {
     height: 500px;
     background-color: #72adf1;
@@ -146,24 +188,26 @@ a {
 
 .socialmediablock {
     margin-top: 10px;
+    display: inline;
+    margin-left: 15px;
 }
 .row a {
     color: black ;
 }
 
-.socialmediablock {
-    display: block;
-}
-
-
-
 
 #contactus {
     font-weight:300;
-    padding-top: 50px;
     padding-bottom: 50px;
+    line-height: 2.2em;
 }
 
+#contactus h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+}
 #bloglink {
     margin-bottom: 0px;
 }
@@ -184,6 +228,7 @@ a {
 .col-xs-3 {
     padding: 0;
 }
+
 
 @media screen and (min-width:1400px) {
     .positioner {
