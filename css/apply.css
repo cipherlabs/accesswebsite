@@ -19,7 +19,7 @@
 }
 #main {
     color: white;
-    height: 350px;
+    padding-bottom: 35px;
     text-align: center;
     background-color: #72adf1;
     overflow: hidden;
@@ -29,11 +29,26 @@
     color: black;
 }
 
-#action {
+#main div p {
+    width: 700px;
+    line-height: 2em;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+#main div {
     margin-top: 20px;
+}
+
+#main div div {
+    text-align: center;
+}
+#action {
+    margin-top: 35px;
     border: none;
     border-radius: 0;
-    font-size: 17px;
+    font-size: 2em;
     color: white;
     background-color: black;
     padding-left: 30px;
