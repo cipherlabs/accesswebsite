@@ -1,0 +1,103 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    background-color: black;
+    color: white;
+}
+
+#header h3 {
+    margin-top: 15px;
+    float: left;
+}
+
+#header a {
+    color: white;
+    margin-top: 15px;
+    float: right;
+}
+#main {
+    color: white;
+    padding-bottom: 35px;
+    text-align: center;
+    background-color: #72adf1;
+    overflow: hidden;
+}
+
+#main h1 {
+    color: black;
+}
+
+#main div p {
+    width: 700px;
+    line-height: 2em;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+#main div {
+    margin-top: 20px;
+}
+
+#main div div {
+    text-align: center;
+}
+#action {
+    margin-top: 35px;
+    border: none;
+    border-radius: 0;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contactus {
+    color: #808080;
+}
+
+.footer-positioner {
+    margin-left:10vh;
+}
+
+#facebook {
+    width: 30px;
+    display:inline-block;
+}
+
+#facebooklink {
+    top: 0;
+}
+.socialmedia {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.socialmediablock {
+    color: grey;
+    margin-top: 10px;
+    display: inline;
+    margin-left: 15px;
+}
+.row a {
+    color: black ;
+}
+
+
+#contactus {
+    margin-top: 20px;
+    font-weight:300;
+    padding-bottom: 50px;
+    line-height: 2.2em;
+}
+
+#contactus h2 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+}
